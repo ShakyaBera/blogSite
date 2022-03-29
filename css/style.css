@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.navlist li {
+  list-style: none;
+  padding: 10px 40px;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Red Hat Mono", monospace;
+}
+.navlist li a:hover {
+  color: grey;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.backpage {
+  background: rgba(0, 0, 0, 0.7) url("../img/bg2.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.fSec {
+  height: 80vh;
+}
+
+.mainBox {
+  height: 70%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+  max-width: 70%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fHalf {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sHalf img {
+  width: 120%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+.sHalf {
+  width: 30%;
+}
+
+.bigText {
+  color: white;
+  font-size: 40px;
+  font-family: "Red Hat Mono", monospace;
+}
+.smallText {
+  color: white;
+
+  font-size: 20px;
+  font-family: "Red Hat Mono", monospace;
+}
+
+.section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: auto;
+}
+.left {
+  flex-direction: row-reverse;
+}
+
+.paras {
+  padding: 65px;
+}
+.paras2 {
+  padding: 65px;
+  text-align: right;
+}
+.paras2 p {
+  text-align: right;
+}
+
+.img {
+  width: 275%;
+  border: 3px solid white;
+  border-radius: 100px;
+  display: block;
+}
+.gamebar li {
+  list-style: none;
+  padding: 10px 40px;
+  margin: auto;
+}
+.gamebar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.gamebar li a:hover {
+  color: grey;
+}
+
+.txtFtr {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.281);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Red Hat Mono", monospace;
+}
+
+.thumbnail img {
+  width: 120%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 840px) {
+  .navlist {
+    flex-direction: column;
+  }
+  .logo img {
+    width: 50%;
+  }
+}
