@@ -168,11 +168,64 @@ body {
   margin: auto;
 }
 
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+
+.line {
+  width: 30px;
+  height: 4px;
+  margin: 5px 3px;
+  background-color: white;
+}
+
 @media only screen and (max-width: 840px) {
   .navlist {
     flex-direction: column;
   }
+  .navbar {
+    height: 350px;
+    transition: all 0.7s ease-out;
+  }
   .logo img {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .heightNav-resp {
+    height: 65px;
+  }
+  .visi-class-resp {
+    opacity: 0;
+  }
+  .mainBox {
+    flex-direction: column-reverse;
+    height: 80%;
+  }
+  .sHalf img {
     width: 50%;
+  }
+  .section {
+    max-width: 95%;
+    flex-direction: column;
+    height: 10%;
+  }
+  .thumbnail {
+    width: 20%;
+  }
+  .smallText {
+    font-size: 18px;
+  }
+  .bigText {
+    font-size: 30px;
+  }
+  .paras,
+  .paras2 {
+    padding: 18px;
   }
 }
