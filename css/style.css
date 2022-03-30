@@ -65,6 +65,9 @@ body {
 .fSec {
   height: 80vh;
 }
+.cSec {
+  height: 80vh;
+}
 
 .mainBox {
   height: 70%;
@@ -77,7 +80,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .fHalf {
-  width: 80%;
+  width: 90%;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -224,8 +227,17 @@ body {
   .bigText {
     font-size: 30px;
   }
+  .fSec {
+    height: 70vh;
+  }
+  .cSec {
+    height: 30vh;
+  }
   .paras,
   .paras2 {
     padding: 18px;
+  }
+  .fHalf {
+    max-width: 90%;
   }
 }
