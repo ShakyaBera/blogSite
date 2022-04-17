@@ -70,7 +70,7 @@ html {
   height: 80vh;
 }
 .cSec {
-  height: 80vh;
+  height: 40vh;
 }
 
 .mainBox {
@@ -189,7 +189,10 @@ html {
   margin: 5px 3px;
   background-color: white;
 }
-
+.video {
+  display: flex;
+  margin: auto;
+}
 @media only screen and (max-width: 840px) {
   .navlist {
     flex-direction: column;
