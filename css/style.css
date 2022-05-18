@@ -121,6 +121,16 @@ html {
   max-width: 70%;
   margin: auto;
 }
+
+.sectionspl {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: auto;
+}
+
 .left {
   flex-direction: row-reverse;
 }
