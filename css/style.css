@@ -152,6 +152,18 @@ html {
   border-radius: 100px;
   display: block;
 }
+
+.imggc {
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 .gamebar li {
   list-style: none;
   padding: 10px 40px;
